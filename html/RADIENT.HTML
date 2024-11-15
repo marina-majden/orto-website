@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Document</title>
+		<script src="/js/AbstractShapeBg.min.js"></script>
+	</head>
+	<style>
+		* + * {
+			padding: unset;
+			margin: unset;
+		}
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			color: #282831;
+
+			font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+			font-size: 1rem;
+			font-weight: 500;
+			line-height: 1.5;
+			max-width: 100vw;
+		}
+		.wrapper {
+			width: 100%;
+			padding: 2rem;
+			margin: 5%;
+		}
+		p {
+			font-size: clamp(1rem, 4vw - 1.2rem, 1.5rem);
+			text-align: justify;
+			text-wrap: pretty;
+			width: 60ch;
+			max-width: 90%;
+		}
+		p.desc {
+			font-weight: 300;
+			font-style: italic;
+			text-align: center;
+			width: 45ch;
+			text-wrap: pretty;
+		}
+		p.resp {
+			font-size: clamp(1.125rem, 5vw - 2.25rem, 1.375rem);
+		}
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			color: #252530;
+			font-weight: 600;
+		}
+		h1 {
+			font-size: clamp(3.25rem, 2.75rem + 1.25vw, 4rem);
+		}
+		h1.new {
+			font-size: clamp(2.75rem, 5vw + 1rem, 4.875rem);
+		}
+		h1.res {
+			font-size: clamp(2.625rem, 4vw + 1.25rem, 4.25rem);
+		}
+
+		h2 {
+			font-size: clamp(2.875rem, 2.375rem + 1.25vw, 3.625rem);
+		}
+		h2.new {
+			font-size: clamp(2.5rem, 5vw + 1rem, 4.25rem);
+		}
+
+		h3 {
+			font-size: clamp(2.285rem, 1.775rem + 1.275vw, 3.05rem);
+		}
+		h4 {
+			font-size: clamp(2rem, 1.4167rem + 1.4583vw, 2.875rem);
+		}
+		h5 {
+			font-size: clamp(1.825rem, 1.375rem + 1.125vw, 2.5rem);
+		}
+		h6 {
+			font-size: clamp(1.525rem, 1.075rem + 1.125vw, 2.2rem);
+		}
+		h1.resp {
+			/* font-size: clamp(2.625rem, 4vw + 1.25rem, 4.5rem); */
+			font-size: clamp(3rem, 5vw + 1.25rem, 4.5rem);
+		}
+		h2.resp {
+			font-size: clamp(2.375rem, 3.8vw + 1rem, 3.625rem);
+			/* font-size: clamp(2.25rem, 3.5vw + 1.25rem, 3.875rem); font-size: ;font-size: clamp(2.375rem, 3vw + 1.25rem, 3.625rem);clamp(2.25rem, 3vw + 1rem, 3.375rem)
+			*/
+		}
+		h3.resp {
+			font-size: clamp(2rem, 3vw + 1rem, 3rem);
+		}
+		h4.resp {
+			font-size: clamp(1.825rem, 2.5vw + 1rem, 2.625rem);
+		}
+		h5.resp {
+			font-size: clamp(1.525rem, 2.2vw + 1rem, 2.375rem);
+		}
+		h6.resp {
+			font-size: clamp(1.375rem, 2vw + 1rem, 2.125rem);
+		}
+		h1.ult {
+			font-size: clamp(2.875rem, 5vw + 1.25rem, 5.625rem);
+		}
+		h2.ult {
+			font-size: clamp(2.5rem, 5vw + 1.25rem, 5rem);
+		}
+		h3.ult {
+			font-size: clamp(2rem, 5vw + 1.25rem, 4.25rem);
+		}
+		h1.big {
+			font-size: clamp(3em, 11.5vw, 9em);
+		}
+		p.big {
+			font-size: clamp(1.2rem, 0.75rem + 1.2vw, 1.8rem);
+		}
+		ul {
+			list-style: none;
+		}
+		/* 	clamp(2rem, 5vw, 3.625rem);  */
+	</style>
+	<body id="box">
+		<div class="wrapper">
+			<h1 class="big">Novo za sve nove</h1>
+			<p class="big">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+				vitae quibusdam illum vero molestiae doloribus voluptas rem
+				obcaecati eveniet. Maxime beatae incidunt, veniam sapiente
+				dolorem fugiat. Maxime doloribus dolorum facere.
+			</p>
+			<h1 class="resp">Veliki naslov h1</h1>
+			<p class="resp">
+				RESPONZIVAN Lorem ipsum dolor, sit amet consectetur adipisicing
+				elit. Impedit ratione aperiam culpa explicabo ipsa dolor
+				molestiae voluptate praesentium molestias officiis repellat
+				error, eaque illo nam dignissimos adipisci beatae reprehenderit!
+				Vel.
+			</p>
+			<h2 class="resp">Naslov veličine h2</h2>
+			<p class="resp">
+				RESPONZIVAN Lorem ipsum dolor, sit amet consectetur adipisicing
+				elit. Impedit ratione aperiam culpa explicabo ipsa dolor
+				molestiae voluptate praesentium molestias officiis repellat
+				error, eaque illo nam dignissimos adipisci beatae reprehenderit!
+				Vel.
+			</p>
+			<h3 class="resp">Srednji naslov h3</h3>
+			<p class="resp">
+				RESPONZIVAN Lorem ipsum dolor, sit amet consectetur adipisicing
+				elit. Impedit ratione aperiam culpa explicabo ipsa dolor
+				molestiae voluptate praesentium molestias officiis repellat
+				error, eaque illo nam dignissimos adipisci beatae reprehenderit!
+				Vel.
+			</p>
+			<h4 class="resp">Manji naslov h4</h4>
+			<p class="resp">
+				RESPONZIVAN Lorem ipsum dolor, sit amet consectetur adipisicing
+				elit. Impedit ratione aperiam culpa explicabo ipsa dolor
+				molestiae voluptate praesentium molestias officiis repellat
+				error, eaque illo nam dignissimos adipisci beatae reprehenderit!
+				Vel.
+			</p>
+			<h5 class="resp">Još manji h5</h5>
+			<p class="resp">
+				RESPONZIVAN Lorem ipsum dolor, sit amet consectetur adipisicing
+				elit. Impedit ratione aperiam culpa explicabo ipsa dolor
+				molestiae voluptate praesentium molestias officiis repellat
+				error, eaque illo nam dignissimos adipisci beatae reprehenderit!
+				Vel.
+			</p>
+			<h6 class="resp">Najmanji naslov h6</h6>
+			<p class="resp">
+				RESPONZIVAN Lorem ipsum dolor, sit amet consectetur adipisicing
+				elit. Impedit ratione aperiam culpa explicabo ipsa dolor
+				molestiae voluptate praesentium molestias officiis repellat
+				error, eaque illo nam dignissimos adipisci beatae reprehenderit!
+				Vel.
+			</p>
+		</div>
+		<div class="wrapper">
+			<h2>Nešto manji h2 naslov</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis
+				aut explicabo ad culpa praesentium architecto, omnis reiciendis
+				alias ea blanditiis sed nostrum eligendi laborum provident
+				facere voluptatem magnam quibusdam dolore.
+			</p>
+			<p class="resp">
+				RESPONZIVAN Lorem ipsum dolor, sit amet consectetur adipisicing
+				elit. Impedit ratione aperiam culpa explicabo ipsa dolor
+				molestiae voluptate praesentium molestias officiis repellat
+				error, eaque illo nam dignissimos adipisci beatae reprehenderit!
+				Vel.
+			</p>
+			<h2 class="new">Drugi po veličini naslovi</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				Mollitia magnam ipsum sequi quos corrupti hic nihil. Voluptates,
+				dicta voluptatem tempore magnam quisquam maxime ipsam pariatur,
+				quibusdam, doloremque praesentium assumenda asperiores.
+			</p>
+			<p class="resp">
+				RESPONZIVAN Lorem ipsum dolor sit amet consectetur adipisicing
+				elit. Maiores aut sunt assumenda quibusdam temporibus dolor amet
+				blanditiis ea placeat, atque adipisci saepe ipsum minima quae?
+				Ea ex quasi ut harum!
+			</p>
+			<h2 class="resp">S ovim sam se stvarno namučila</h2>
+			<p>
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere
+				itaque sequi labore officiis consectetur unde fuga? Ipsam, eum
+				cum, fugit tempore consequuntur molestias maiores dolores odio
+				nobis quia odit totam.
+			</p>
+			<p class="resp">
+				RESPONZIVAN Lorem ipsum dolor sit amet consectetur, adipisicing
+				elit. A suscipit, voluptate ad id sequi labore ea quibusdam
+				itaque excepturi autem mollitia quod. Eaque ea earum ad eos ipsa
+				aut quisquam!
+			</p>
+		</div>
+		<div class="wrapper">
+			<h1 class="resp">Veliki naslov h1</h1>
+			<h2 class="resp">Naslov veličine h2</h2>
+			<h3 class="resp">Srednji naslov h3</h3>
+			<h4 class="resp">Manji naslov h4</h4>
+			<h5 class="resp">Još manji h5</h5>
+			<h6 class="resp">Najmanji naslov h6</h6>
+		</div>
+
+		<h3>Još manji naslov</h3>
+		<h4>Ovaj je još manji</h4>
+		<h5>Ali svi su podebljani trenutno</h5>
+		<h6>Samo 600 weighta</h6>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+			tenetur illum, labore sit quisquam, nihil hic ullam corporis ea
+			ratione, earum voluptate reiciendis doloribus soluta officia! Animi
+			optio reprehenderit omnis.
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+			officiis vel culpa, illo, sint dolorem suscipit totam quis eveniet
+			architecto dolorum quidem facilis facere porro ducimus ea ullam
+			inventore quia.
+		</p>
+		<ul>
+			<li>Lalalal</li>
+			<li>Lilili</li>
+			<li>Hahahaha</li>
+			<li>ksdkfdkasdkf</li>
+		</ul>
+		<a href="">Link</a>
+		<a href="">Drugi</a>
+		<button>Button</button>
+		<form
+			action="
+		"
+		>
+			<label for="name">Name</label>
+			<input
+				type="text"
+				name="name"
+				id="name"
+			/>
+			<br />
+			<label for="mail">Mail</label>
+			<input
+				type="email"
+				name="mail"
+				id="mail"
+			/>
+			<br />
+			<input
+				type="submit"
+				value="Submit"
+			/>
+		</form>
+	</body>
+	<script>
+		let colorbg = new Color4Bg.AbstractShapeBg({
+			dom: "box",
+			colors: [
+				"#e4e4dc",
+				"#bbd3c9",
+				"#bcdcda",
+				"#e6f4ee",
+				"#cbe6dd",
+				"#d9f7d9",
+			],
+			loop: true,
+		});
+	</script>
+</html>

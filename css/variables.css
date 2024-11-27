@@ -1,0 +1,44 @@
+:root {
+    --clr-brand: #b3c19d;
+    --clr-prim: #c2cab5;
+    --clr-prim-light: hsl(140, 14%, 84%);
+    --clr-sec: #303030d0;
+    --clr-secundary: #303030;
+    --clr-ter: #2f3d36;
+    --clr-acc: #497e69;
+    --clr-acc-gold: hsl(44, 64%, 60%);
+    --clr-acc-gold-light: #e8d296;
+    --clr-bg: #cecece;
+    --clr-txt: hsl(0, 0%, 16%);
+    --clr-txt-light: #c1cfc6;
+    --clr-txt-dark: #292929;
+    --clr-dark-transparent: #676e5b96;
+    --clr-lt-transparent: hsla(140, 15%, 84%, 0.74);
+    --glassmorphic-background: linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
+    );
+    --glassmorphic-box-shadow: 20px 20px 60px rgba(255, 255, 255, 0.1),
+      -20px -20px 60px rgba(255, 255, 255, 0.1);
+    --glassmorphic-box-shadow-inset: inset 20px 20px 60px rgba(255, 255, 255, 0.1),
+      inset -20px -20px 60px rgba(255, 255, 255, 0.1);
+    --glassmorphic-background-white: linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.247),
+      rgba(255, 255, 255, 0.404)
+    );
+    --glassmorphic-box-shadow-white: 20px 20px 60px rgba(255, 255, 255, 0.288),
+      -20px -20px 60px rgba(255, 255, 255, 0.1);
+    --glassmorphic-box-shadow-inset-white: inset 20px 20px 60px
+        rgba(255, 255, 255, 0.1),
+      inset -20px -20px 60px rgba(255, 255, 255, 0.212);
+    --ff-upper: "Source Sans Pro", sans-serif;
+    --ff-text: "Figtree", sans-serif;
+    --ff-heading: "Bodoni Moda", serif;
+    --ff-other: "Unna", serif;
+    --ff-head: "Noto Serif Display", serif;
+  
+    --header-height: 15vh;
+  }
+  

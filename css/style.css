@@ -1,0 +1,26 @@
+p {
+    font-size: clamp(1.125rem, 5vw - 2.25rem, 1.375rem);
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--ff-head), serif;
+    font-weight: 500;
+    color: var(--clr-txt-dark);
+    line-height: 1.2;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  main {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    scroll-behavior: smooth;
+    /*  scroll-snap-type: y mandatory;
+      overflow-x: hidden;
+      overflow-y: scroll; */
+  }
+  

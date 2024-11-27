@@ -1,0 +1,284 @@
+/*===================================
+HEADER
+====================================*/
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    max-width: 100%;
+    height: 10vh;
+    margin-bottom: 1rem;
+    z-index: 998;
+    background-color: var(--clr-prim-light);
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  .container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #logo {
+    height: 100%;
+    aspect-ratio: 1/1;
+    padding: 0;
+    margin: 0;
+  
+    /*  width: auto;
+     position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 9999;
+     */
+  }
+  
+  /* nav {
+      padding: 1rem;
+      margin: 0;
+      background-color: transparent;
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+    }
+     */
+  .hide {
+    display: none;
+  }
+  @media (max-width: 767px) {
+    #navbar-toggle {
+      position: fixed;
+      top: 2rem;
+      right: 3rem;
+      width: 2rem;
+      height: 2rem;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      z-index: 9999;
+    }
+    #navbar-toggle span {
+      position: absolute;
+      width: 50px;
+      height: 4px;
+      top: 50%;
+      left: 50%;
+      background: #262626;
+      border-radius: 2px;
+      overflow: hidden;
+      transition: all 0.3s linear;
+    }
+    #navbar-toggle span::before {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 100%;
+      top: 0;
+      right: 0;
+      background: rgb(56, 56, 56);
+      transition: all 0.3s linear;
+    }
+    #navbar-toggle span:nth-child(1) {
+      animation: span-first-off 0.5s ease-in-out;
+      animation-fill-mode: forwards;
+    }
+    #navbar-toggle span:nth-child(2) {
+      animation: span-second-off 0.3s ease-in-out;
+      animation-fill-mode: forwards;
+    }
+    #navbar-toggle span:nth-child(3) {
+      animation: span-third-off 0.5s ease-in-out;
+      animation-fill-mode: forwards;
+    }
+  
+    #navbar-toggle.on:hover span::before {
+      width: 100%;
+      transition: all 0.3s linear;
+    }
+    #navbar-toggle.on span:nth-child(1) {
+      animation: span-first-on 0.5s ease-in-out;
+      animation-fill-mode: forwards;
+    }
+    #navbar-toggle.on span:nth-child(2) {
+      animation: span-second-on 0.5s ease-in-out;
+      animation-fill-mode: forwards;
+    }
+    #navbar-toggle.on span:nth-child(3) {
+      animation: span-third-on 0.5s ease-in-out;
+      animation-fill-mode: forwards;
+    }
+  
+    @keyframes span-first-on {
+      0% {
+        transform: translate(-50%, -300%);
+      }
+      30% {
+        transform: translate(-50%, -50%);
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(-45deg);
+      }
+    }
+    @keyframes span-first-off {
+      0% {
+        transform: translate(-50%, -50%) rotate(-45deg);
+      }
+      30% {
+        transform: translate(-50%, -50%) rotate(0deg);
+      }
+      100% {
+        transform: translate(-50%, -300%);
+      }
+    }
+    @keyframes span-second-on {
+      0% {
+        transform: translate(-50%, -50%);
+      }
+      25% {
+        background: gray;
+      }
+      50% {
+        transform: translate(-50%, -50%) scale(1);
+      }
+      100% {
+        transform: translate(-150%, -50%) scale(0);
+      }
+    }
+    @keyframes span-second-off {
+      0% {
+        transform: translate(-150%, -50%) scale(0);
+      }
+      25% {
+        background: gray;
+      }
+      50% {
+        transform: translate(-50%, -50%) scale(1);
+      }
+      100% {
+        transform: translate(-50%, -50%);
+      }
+    }
+    @keyframes span-third-on {
+      0% {
+        transform: translate(-50%, 200%);
+      }
+      30% {
+        transform: translate(-50%, -50%);
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(45deg);
+      }
+    }
+    @keyframes span-third-off {
+      0% {
+        transform: translate(-50%, -50%) rotate(45deg);
+      }
+      30% {
+        transform: translate(-50%, -50%) rotate(0deg);
+      }
+      100% {
+        transform: translate(-50%, 200%);
+      }
+    }
+    #navbar-mobile.hide {
+      display: none;
+    }
+    #navbar-mobile.show {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 90%;
+      background-color: #272727e3;
+      z-index: 998;
+      overflow: hidden;
+  
+      display: flex;
+      flex-direction: column;
+  
+      align-items: stretch;
+      padding-top: 2rem;
+      z-index: 999;
+      li {
+        display: block;
+        padding: 0.2rem;
+        margin: 1rem;
+        a {
+          text-transform: uppercase;
+          color: rgb(228, 226, 226);
+          font-size: 1.5rem;
+          font-size: 2rem;
+          font-weight: 500;
+        }
+        a:hover {
+          color: var(--clr-prim);
+        }
+        a:active {
+          color: var(--clr-prim);
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  #nav {
+    display: none;
+  
+    @media (min-width: 768px) {
+      display: block;
+      ul {
+        display: flex;
+        -ms-flex-direction: row;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+      }
+      li {
+        display: inline-flex;
+        margin: 0 0.4rem;
+      }
+      li a {
+        font-family: var(--ff-upper);
+        color: var(--clr-txt-dark);
+        font-size: 1rem;
+        text-decoration: none;
+        display: block;
+        font-weight: 500;
+        opacity: 0.9;
+      }
+      li a:after {
+        content: "";
+        display: block;
+        height: 2px;
+        background: var(--clr-txt);
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        margin-top: 2px;
+      }
+      li a:hover:after,
+      li.active a:after {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+  
+      li a:hover {
+        opacity: 1;
+      }
+      li.active a {
+        opacity: 1;
+      }
+      li a:first-child::after,
+      a:first-child:hover,
+      a:first-child::after:active {
+        content: "";
+        display: none;
+      }
+    }
+  }
+  
+  

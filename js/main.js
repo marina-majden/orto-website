@@ -35,3 +35,26 @@ window.onload = function () {
   element.classList.toggle('open');
     document.getElementsByTagName('body')[0].classList.toggle('open');
 }; */
+
+  new Glide('.glide', {
+    type: 'carousel',
+autoplay: 2000,
+gap: 1,
+perView: 1,
+breakpoints: {
+  600: {
+    perView: 1,
+  },
+  768: {
+    perView: 2,
+  },
+},
+peek: {
+  before: 200,
+  after: 200,
+},
+bound: true,
+loop: true,
+focusAt: 'center',
+
+   }).mount();

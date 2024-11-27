@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("../fonts/Figtree/Figtree-VariableFont_wght.ttf");
+@import url("../fonts/Noto_Serif_Display/NotoSerifDisplay-VariableFont_wdth\,wght.ttf");
+@import url("../fonts/Noto_Serif_Display/NotoSerifDisplay-Italic-VariableFont_wdth\,wght.ttf");
+
+@font-face {
+  font-family: "Figtree";
+  src: url("../fonts/Figtree/Figtree-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Noto Serif Display";
+  src: url("../fonts/Noto_Serif_Display/NotoSerifDisplay-VariableFont_wdth\,wght.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Noto Serif Display";
+  src: url("../fonts/Noto_Serif_Display/NotoSerifDisplay-Italic-VariableFont_wdth\,wght.ttf");
+  font-style: italic;
+}

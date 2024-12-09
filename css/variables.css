@@ -13,7 +13,7 @@
     --clr-txt-light: #c1cfc6;
     --clr-txt-dark: #292929;
     --clr-dark-transparent: #676e5b96;
-    --clr-lt-transparent: hsla(140, 15%, 84%, 0.74);
+    --clr-lt-transparent: hsla(140, 15%, 84%, 0.856);
     --glassmorphic-background: linear-gradient(
       145deg,
       rgba(255, 255, 255, 0.1),

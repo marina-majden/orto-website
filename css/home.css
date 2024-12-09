@@ -9,10 +9,7 @@
   #home {
     width: 100vw;
     height: 100vh;
-    background-image: url("/images/interior-ordin-960.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url("/images/interior-ordin-960.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
     padding-top: 1rem;
   }
   .home-content {

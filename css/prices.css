@@ -1,0 +1,31 @@
+
+/*============= PRICES SECTION =================*/
+#prices {
+    background: url(/images/inter-rec-v43.jpg) no-repeat fixed center / contain rgba(0, 0, 0, 0);
+    background-position-x: left;
+  
+   
+    .section-content {
+      width: 90%;
+      padding: 0;
+      margin: 0 auto;
+    }
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table th {
+    background: var(--clr-prim);
+    color: var(--clr-sec);
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+  table td {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  table tr:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }

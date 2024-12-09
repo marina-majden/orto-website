@@ -1,0 +1,100 @@
+
+/*============== CASES SECTION ================*/
+/* .cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  font-family: "Roboto", sans-serif;
+} */
+
+.case-box {
+    min-width: 300px;
+    min-height: 500px;
+    margin: 2rem 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+  
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+  }
+  .case-box img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    transition: opacity 0.2s ease-out;
+  }
+  .case-box h3 {
+    position: absolute;
+    inset: auto auto 30px 30px;
+    margin: 0;
+    transition: inset 0.3s 0.3s ease-out;
+  }
+  .case-box p,
+  .case-box a {
+    position: absolute;
+    opacity: 0;
+    max-width: 80%;
+    background-color: #fff9f913;
+    transition: opacity 0.3s ease-out;
+  }
+  .case-box p {
+    inset: auto auto 80px 30px;
+  }
+  .case-box a {
+    inset: auto auto 40px 30px;
+    color: inherit;
+    text-decoration: none;
+  }
+  .case-box:hover h3 {
+    inset: auto auto 220px 30px;
+    transition: inset 0.3s ease-out;
+  }
+  .case-box:hover p,
+  .case-box:hover a {
+    opacity: 1;
+    transition: opacity 0.5s 0.1s ease-in;
+  }
+  .case-box:hover img {
+    transition: opacity 0.3s ease-in;
+    opacity: 1;
+  }
+  
+  .icon {
+    vertical-align: middle;
+  }
+  /*
+  .case-box {
+    background: var(--clr-prim-light);
+    border-radius: 10px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  .case-box:hover {
+    background: var(--clr-prim);
+    color: var(--clr-sec);
+  }
+  .case-box img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .case-box h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .case-box p {
+    margin: 0;
+  }

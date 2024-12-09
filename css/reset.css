@@ -16,8 +16,7 @@ body {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.5;
-  color: var(--clr-sec);
-  background-color: var(--clr-bg);
+
   overflow-x: hidden;
 }
 ul,

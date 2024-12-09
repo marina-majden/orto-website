@@ -1,20 +1,22 @@
 /*============= CONTACT SECTION ===============*/
 #contact {
-    background: url(/images/inter-offic-960.jpg) no-repeat fixed center center / cover rgba(0, 0, 0, 0);
-      padding: 0px;
-      min-height: 430px;
-  }
-  .contact-info {
-    background: var(--clr-lt-transparent);
-    border-radius: 10px;
-    padding: 20px;
-    text-align: left;
-    margin: 1rem;
-  }
-  .contact-form {
-    background: var(--clr-lt-transparent);
-    border-radius: 10px;
-    padding: 20px;
-    text-align: left;
-    margin: 1rem;
-  }
+  background: url(/images/inter-offic-960.jpg) no-repeat fixed center center /
+    cover rgba(0, 0, 0, 0);
+  padding: 0px;
+  min-height: 430px;
+}
+.contact-info, .contact-form {
+  color: var(--clr-txt-dark);
+
+  background: rgba(190, 202, 188, 0.459);
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.274);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 2px solid rgba(211, 203, 203, 0.04);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  margin: 1rem;
+}
+

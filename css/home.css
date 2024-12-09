@@ -1,86 +1,110 @@
 /*===============================
    HOME SECTION
   ==================================*/
-  main {
-    position: absolute;
-    left: 0;
-    margin-top: 10vh;
-  }
-  #home {
-    width: 100vw;
-    height: 100vh;
-    background: url("/images/interior-ordin-960.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
-    padding-top: 1rem;
-
-  }
-.logo-big {
-  background-color: var(--clr-lt-transparent);
-  opacity: 0.5;
+main {
+  position: absolute;
+  left: 0;
+  margin-top: 10vh;
 }
-  .home-content {
-    padding: 2rem 3rem;
-    background-color: var(--clr-lt-transparent);
-    border-radius: 10px;
-  }
-  .home-content h1 {
-    margin-bottom: 2rem;
-  }
-  .home-content p {
-    font-size: 1.4rem;
-    font-weight: 500;
-    margin-bottom: 3rem;
-  }
-  .home-content a {
-    display: block;
-    padding: 10px 30px;
-    background: var(--clr-prim);
-    color: var(--clr-sec);
-    text-transform: uppercase;
-    font-weight: 600;
-    border-radius: 5px;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-  }
-  .home-content a:hover {
-    background: var(--clr-sec);
-    color: var(--clr-prim);
-  }
-     
-.animation {
-	width: 100%;
-	
-	height: 50px;
-	overflow: hidden;
+#home {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffffb6;
+  background: url("/images/interior-ordin-960.jpg") no-repeat fixed center
+    center / cover rgba(255, 255, 255, 0.288);
+   
+    background-blend-mode: lighten;
+  padding-top: 1rem;
+}
 
-	z-index: 999;
-	text-align:center;
-	text-decoration: none;
+.home-content {
+  padding: 2rem 3rem;
+  background-color: var(--clr-lt-transparent);
+  border-radius: 10px;
+}
+.home-content h1 {
+  margin-bottom: 2rem;
+}
+.home-content p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+.home-content a {
+  display: block;
+  padding: 10px 30px;
+  background: var(--clr-prim);
+  color: var(--clr-sec);
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.home-content a:hover {
+  background: var(--clr-sec);
+  color: var(--clr-prim);
+}
+
+.animation {
+  width: 100%;
+
+  height: 50px;
+  overflow: hidden;
+
+  z-index: 999;
+  text-align: center;
+  text-decoration: none;
 }
 
 .fa-angle-down {
-	text-align: center;
-	font-size: 48px;
-	color: #fff;
-	
-	-webkit-animation: leweb_fade_move_down 2s ease-in-out infinite;
-	-moz-animation: leweb_fade_move_down 2s ease-in-out infinite;
-	animation: leweb_fade_move_down 2s ease-in-out infinite;
-   }
+  text-align: center;
+  font-size: 48px;
+  color: #fff;
 
-	/* Animated Arrow Down Header */
-	
+  -webkit-animation: leweb_fade_move_down 2s ease-in-out infinite;
+  -moz-animation: leweb_fade_move_down 2s ease-in-out infinite;
+  animation: leweb_fade_move_down 2s ease-in-out infinite;
+}
+
+/* Animated Arrow Down Header */
+
 @-webkit-keyframes leweb_fade_move_down {
-  0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
-  50%  { opacity: 1;  }
-  100% { -webkit-transform:translate(0,20px); opacity: 0; }
+  0% {
+    -webkit-transform: translate(0, -20px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
 }
 @-moz-keyframes leweb_fade_move_down {
-  0%   { -moz-transform:translate(0,-20px); opacity: 0;  }
-  50%  { opacity: 1;  }
-  100% { -moz-transform:translate(0,20px); opacity: 0; }
+  0% {
+    -moz-transform: translate(0, -20px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -moz-transform: translate(0, 20px);
+    opacity: 0;
+  }
 }
 @keyframes leweb_fade_move_down {
-  0%   { transform:translate(0,-20px); opacity: 0;  }
-  50%  { opacity: 1;  }
-  100% { transform:translate(0,20px); opacity: 0; }
+  0% {
+    transform: translate(0, -20px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
 }

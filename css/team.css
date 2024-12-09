@@ -6,9 +6,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: start;
-    width: 80%;
+    width: 60%;
     min-width: 375px;
-  height: max-content;
+    height: max-content;
 
     padding: 0;
     margin: 1rem auto;
@@ -23,19 +23,25 @@
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     overflow: hidden;
   }
+
   figure:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   }
-  figure:hover h2, figure:hover h3 {
+
+  figure:hover h2,
+  figure:hover h3 {
     opacity: 0;
     transform: scale(0.7);
   }
+
   figure:hover img {
     transform: scale(1.4) translateX(-3%) translateY(10%);
   }
+
   figure:hover figcaption {
     right: 0;
   }
+
   figure h2 {
     position: absolute;
     top: 1rem;
@@ -51,14 +57,15 @@
     transition: 0.25s ease;
     z-index: 999;
   }
-  figure  h3 {
+
+  figure h3 {
     position: absolute;
     top: 5rem;
     right: 2rem;
     margin: 0;
     padding: 0;
     color: var(--clr-txt);
-   
+
     font-weight: 600;
     text-shadow: 1px 1px 3px rgba(248, 248, 248, 0.959);
     opacity: 1;
@@ -66,20 +73,22 @@
     transition: 0.25s ease;
     z-index: 999;
     font-size: 1.4rem;
-    
   }
+
   figure i {
     position: absolute;
     bottom: 2rem;
     right: 2rem;
     font-size: 1.4rem;
   }
+
   figure img {
     width: 50%;
     height: auto;
     transform: scale(1);
     transition: 0.25s;
   }
+
   figure figcaption {
     position: absolute;
     bottom: 0;
@@ -99,11 +108,13 @@
     scrollbar-track-color: bisque;
     transition: 0.25s;
   }
+
   figure figcaption h3 {
     font-size: 1.4rem;
     margin: 0 0 20px;
     padding: 0;
   }
+
   figure figcaption p {
     color: rgb(226, 226, 226);
     font-size: 1rem;

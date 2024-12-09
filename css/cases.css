@@ -1,5 +1,10 @@
 
 /*============== CASES SECTION ================*/
+#cases {
+  width: 100%;
+  height: auto;
+  max-height: max-content;
+}
 /* .cards {
   display: flex;
   flex-direction: column;

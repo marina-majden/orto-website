@@ -7,9 +7,7 @@
 }
 .contact-info, .contact-form {
   color: var(--clr-txt-dark);
-
   background: rgba(190, 202, 188, 0.459);
-
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.274);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);

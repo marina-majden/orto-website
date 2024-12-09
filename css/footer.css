@@ -1,11 +1,16 @@
 /*===================================== FOOTER SECTION =====================================*/
 footer {
-  background: var(--clr-prim-light);
-  color: var(--clr-secundary);
+
   text-align: center;
   padding: 2rem;
+  color: var(--clr-txt-dark);
+  background: rgba(190, 202, 188, 0.459);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 2px solid rgba(211, 203, 203, 0.04);
+  border-radius: 4px;
+ 
 }
-
 footer a {
   color: var(--clr-secundary);
   text-decoration: none;

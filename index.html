@@ -16,7 +16,7 @@
       name="viewport"
       content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"
     />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
     <!-- FONTS -->
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,600,700"
@@ -159,14 +159,36 @@
               <div class="col">
                 <div
                   class="logo-big"
-                  data-sr="enter top over 1s, wait 1s, move 24px, reset"
+                  data-sr="enter top over 2s, wait 1s, move 24px, reset"
                 >
                   <img src="images/logo-vector-2.svg" alt="" />
                 </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="animation">
+                      <a class="arrow-down-animation" data-scroll href="#about"
+                        ><i class="fa fa-angle-down"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--  HOME ENDS -->
+        <!-- ABOUT -->
+        <section class="about" id="about">
+          <div class="wrapper">
+            
+            <div class="row about">
+              <div class="col col-md-6">
+               
                 <div
-                  class="home-content"
+                  class="section-content"
                   data-sr="enter top over 1s, wait 2s, move 24px, reset"
                 >
+                <h2>O nama</h2>
                   <p>
                     Ordinacija dentalne medicine dr. Ana Petrović je
                     specijalistička ordinacija za ortodonciju. Naš tim čine
@@ -175,50 +197,23 @@
                     metode i materijale kako bismo Vam pružili najbolju moguću
                     uslugu.
                   </p>
-                  <a href="#about" class="btn">Saznajte više</a>
-                </div>
-                <div class="animation">
-                  <a class="arrow-down-animation" data-scroll href="#about"
-                    ><i class="fa fa-angle-down">lll</i></a
-                  >
                 </div>
               </div>
+              <div class="col col-md-6">
+                <div class="section-image"  data-sr="enter bottom over 1s, wait 0.3s, move 24px, reset">
+                  <img src="/images/team-alt-h43.jpg" alt="">
+                </div>
+              </div>
+             
             </div>
+
+             
+           
+
           </div>
         </section>
-        <!--  HOME ENDS -->
-        <!-- ABOUT -->
-        <section class="about" id="about"></section>
         <!-- ABOUT ENDS -->
-        <!-- ORTODONCIJA -->
-        <section class="ortodoncija">
-          <div
-            class="wrapper"
-            data-sr="enter top over 1s, wait 0.3s, move 24px, reset"
-          >
-            <h2>Ortodoncija</h2>
-            <p>
-              Ortodoncija je grana stomatologije koja se bavi
-              dijagnosticiranjem, prevencijom i ispravljanjem nepravilnog
-              položaja zuba i čeljusti. Cilj ortodontske terapije nije samo
-              estetski osmijeh, već i pravilna funkcija zuba, bolji zagriz te
-              očuvanje zdravlja usne šupljine.
-            </p>
-            <p>
-              Ortodontska terapija prikladna je za sve dobne skupine – od djece
-              čiji se zubi i čeljusti još razvijaju, do odraslih koji žele
-              poboljšati izgled i funkciju svog osmijeha. Nepravilni zubi,
-              prekomjerna zbijenost, razmak između zuba ili problemi sa zagrizom
-              razlozi su zbog kojih se sve više ljudi odlučuje na ortodontsku
-              terapiju.
-            </p>
-            <p>
-              Savjetujemo da se posavjetujete sa specijalistom ortodoncije kako
-              biste saznali koja je terapija najbolja za vas. Pravilni zubi
-              uvjet su za zdravlje i lijep osmijeh!
-            </p>
-          </div>
-        </section>
+
         <!-- FAQ -->
         <!--  <section class="faq">
           <div class="wrapper" data-sr="enter top over 1s, wait 0.3s, move 24px, reset">
@@ -264,6 +259,38 @@
                     U našoj ordinaciji pružamo širok spektar usluga iz oblasti
                     ortodoncije. Naš tim čine stručnjaci sa dugogodišnjim
                     iskustvom u radu sa pacijentima svih uzrasta.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <!-- ORTODONCIJA -->
+
+                <div
+                  class="wrapper"
+                  data-sr="enter top over 1s, wait 0.3s, move 24px, reset"
+                >
+                  <h2>Ortodoncija</h2>
+                  <p>
+                    Ortodoncija je grana stomatologije koja se bavi
+                    dijagnosticiranjem, prevencijom i ispravljanjem nepravilnog
+                    položaja zuba i čeljusti. Cilj ortodontske terapije nije
+                    samo estetski osmijeh, već i pravilna funkcija zuba, bolji
+                    zagriz te očuvanje zdravlja usne šupljine.
+                  </p>
+                  <p>
+                    Ortodontska terapija prikladna je za sve dobne skupine – od
+                    djece čiji se zubi i čeljusti još razvijaju, do odraslih
+                    koji žele poboljšati izgled i funkciju svog osmijeha.
+                    Nepravilni zubi, prekomjerna zbijenost, razmak između zuba
+                    ili problemi sa zagrizom razlozi su zbog kojih se sve više
+                    ljudi odlučuje na ortodontsku terapiju.
+                  </p>
+                  <p>
+                    Savjetujemo da se posavjetujete sa specijalistom ortodoncije
+                    kako biste saznali koja je terapija najbolja za vas.
+                    Pravilni zubi uvjet su za zdravlje i lijep osmijeh!
                   </p>
                 </div>
               </div>
@@ -465,18 +492,23 @@
         <!-- TEAM ENDS -->
         <!-- PRICES -->
         <section class="prices" id="prices">
-          <div class="container">
+        
             <div class="row">
+              <div class="col">
+                <h2>Cjenik</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col col-md-6">
+                <img src="/images/inter-rec-v43.jpg" alt="">
+              </div>
+              
               <div
-                class="col-md-6"
+                class="col col-md-6"
                 data-sr="enter bottom over 1s, wait 0.3s, move 24px, reset"
-              ></div>
-              <div
-                class="col-md-6"
-                data-sr="enter bottom over 1s, wait 0.3s, move 24px, reset"
-              >
+      >
                 <div class="section-content">
-                  <h2>Cjenik</h2>
+                 
                   <p>
                     Naša ordinacija ima potpisan ugovor s Hrvatskim zavodom za
                     zdravstveno osiguranje koje pokriva liječenje pacijentima
@@ -494,6 +526,13 @@
                   </p>
                   <p>
                     Primamo sljedeće kartice: MasterCard, Visa, Maestro Diners.
+                  </p>
+                  
+                </div> <div class="section-content">
+                  <h4>Mogućnosti plaćanja</h4>
+                  <p>
+                    U našoj ordinaciji možete plaćati gotovinom, karticom ili na
+                    rate.
                   </p>
                   <div class="table">
                     <table>
@@ -520,16 +559,12 @@
                     </table>
                   </div>
                 </div>
-                <div class="section-content">
-                  <h4>Mogućnosti plaćanja</h4>
-                  <p>
-                    U našoj ordinaciji možete plaćati gotovinom, karticom ili na
-                    rate.
-                  </p>
                 </div>
-              </div>
+               
+                
+            
             </div>
-          </div>
+         
         </section>
         <!-- PRICES ENDS -->
         <!-- CASES -->
@@ -543,9 +578,60 @@
               </div>
             </div>
           </div>
+            <!-- GRID -->
+        <div id="grid">
+          <div class="page-content">
+            <div class="card">
+              <div class="content">
+                <h2 class="title">Fiksni aparati</h2>
+                <p class="copy">
+                  Mobilni aparatići su idealni za manje korekcije i mlađe
+                  pacijente. Nosite ih kad želite, držite kontrolu nad
+                  vremenskim okvirom i uživajte u praktičnosti.
+                </p>
+                <button class="btn">View Trips</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <h2 class="title">To The Beach</h2>
+                <p class="copy">
+                  Plan your next beach trip with these fabulous destinations
+                </p>
+                <button class="btn">View Trips</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <h2 class="title">Desert Destinations</h2>
+                <p class="copy">It's the desert you've always dreamed of</p>
+                <button class="btn">Book Now</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <h2 class="title">Explore The Galaxy</h2>
+                <p class="copy">
+                  Seriously, straight up, just blast off into outer space today
+                </p>
+                <button class="btn">Book Now</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <h2 class="title">Explore The Galaxy</h2>
+                <p class="copy">
+                  Seriously, straight up, just blast off into outer space today
+                </p>
+                <button class="btn">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+   <!-- 
           <div class="container-flex">
             <div class="col-12 col-md-4">
-              <!--      <div class="case-box">
+                <div class="case-box">
                 <img src="/images/br-clear.jpeg" alt="" />
                 <h3>Slučaj 1</h3>
                 <p>
@@ -577,9 +663,9 @@
                   necessitatibus voluptatum quos doloribus.
                 </p>
                 <a href="" class="btn-more">Više</a>
-              </div>-->
-            </div>
-          </div>
+              </div>
+            </div>-->
+          
         </section>
         <!-- GALLERY -->
         <section>
@@ -589,7 +675,6 @@
                 <h2>Galerija</h2>
               </div>
             </div>
-
           </div>
           <div class="glide glide--carousel">
             <div class="glide__track" data-glide-el="track">
@@ -632,7 +717,7 @@
                 class="glide__arrow glide__arrow--right"
                 data-glide-dir=">"
               >
-              <i class="fa fa-chevron-right"></i>
+                <i class="fa fa-chevron-right"></i>
               </button>
             </div>
             <div class="glide__bullets" data-glide-el="controls[nav]">
@@ -644,7 +729,6 @@
               <button class="glide__bullet" data-glide-dir="=5"></button>
               <button class="glide__bullet" data-glide-dir="=6"></button>
               <button class="glide__bullet" data-glide-dir="=7"></button>
-              
             </div>
           </div>
         </section>
@@ -754,57 +838,7 @@
           </div>
         </section>
         <!-- CONTACT ENDS -->
-        <!-- GRID -->
-        <section id="grid">
-          <div class="page-content">
-            <div class="card">
-              <div class="content">
-                <h2 class="title">Fiksni aparati</h2>
-                <p class="copy">
-                  Mobilni aparatići su idealni za manje korekcije i mlađe
-                  pacijente. Nosite ih kad želite, držite kontrolu nad
-                  vremenskim okvirom i uživajte u praktičnosti.
-                </p>
-                <button class="btn">View Trips</button>
-              </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                <h2 class="title">To The Beach</h2>
-                <p class="copy">
-                  Plan your next beach trip with these fabulous destinations
-                </p>
-                <button class="btn">View Trips</button>
-              </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                <h2 class="title">Desert Destinations</h2>
-                <p class="copy">It's the desert you've always dreamed of</p>
-                <button class="btn">Book Now</button>
-              </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                <h2 class="title">Explore The Galaxy</h2>
-                <p class="copy">
-                  Seriously, straight up, just blast off into outer space today
-                </p>
-                <button class="btn">Book Now</button>
-              </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                <h2 class="title">Explore The Galaxy</h2>
-                <p class="copy">
-                  Seriously, straight up, just blast off into outer space today
-                </p>
-                <button class="btn">Book Now</button>
-              </div>
-            </div>
-          </div>
-        </section>
-
+      
         <!-- Footer -->
         <footer>
           <div class="row">
@@ -851,13 +885,7 @@
     <!-- SLIDER -->
     <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
 
-    <script>
-      let colorbg = new Color4Bg.BlurGradientBg({
-        dom: "video",
-        colors: ["#eff2d4", "#d3e9da", "#ecebe9", "#d1e1db"],
-        loop: true,
-      });
-    </script>
+   
 
     <script src="js/bootstrap.min.js"></script>
     <!-- SMOOTH SCROLL -->

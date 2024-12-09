@@ -9,13 +9,14 @@ header {
     height: 10vh;
     margin-bottom: 1rem;
     z-index: 998;
-    background-color: var(--clr-prim-light);
+    background: rgba(190, 202, 188, 0.288);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     transition: 0.5s;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
   }
 
@@ -205,9 +206,12 @@ header {
   }
   #nav {
     display: none;
+    
   
     @media (min-width: 768px) {
       display: block;
+  
+    
       ul {
         display: flex;
         -ms-flex-direction: row;

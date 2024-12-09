@@ -1,57 +1,30 @@
 /*===============================
    HOME SECTION
   ==================================*/
-main {
-  position: absolute;
-  left: 0;
-  margin-top: 10vh;
-}
-#home {
-  width: 100vw;
-  height: 100vh;
-  background-color: #ffffffb6;
-  background: url("/images/interior-ordin-960.jpg") no-repeat fixed center
-    center / cover rgba(255, 255, 255, 0.288);
-   
-    background-blend-mode: lighten;
-  padding-top: 1rem;
-}
 
-.home-content {
-  padding: 2rem 3rem;
-  background-color: var(--clr-lt-transparent);
+#home {
+  width: 100%;
+  height: 90vh;
+  background: url("/images/orig/inter-ord.jpeg") no-repeat fixed center center /
+    cover rgba(255, 255, 255, 0.288);
+  padding-top: 1rem;
+  margin: 0;
+}
+.logo-big {
+  width: 80%;
+  padding: 0;
+  margin: 15% 5% auto;
+  background: rgba(190, 202, 188, 0.288);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.274);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 2px solid rgba(211, 203, 203, 0.04);
   border-radius: 10px;
-}
-.home-content h1 {
-  margin-bottom: 2rem;
-}
-.home-content p {
-  font-size: 1.4rem;
-  font-weight: 500;
-  margin-bottom: 3rem;
-}
-.home-content a {
-  display: block;
-  padding: 10px 30px;
-  background: var(--clr-prim);
-  color: var(--clr-sec);
-  text-transform: uppercase;
-  font-weight: 600;
-  border-radius: 5px;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-.home-content a:hover {
-  background: var(--clr-sec);
-  color: var(--clr-prim);
 }
 
 .animation {
   width: 100%;
-
-  height: 50px;
   overflow: hidden;
-
   z-index: 999;
   text-align: center;
   text-decoration: none;
@@ -59,8 +32,9 @@ main {
 
 .fa-angle-down {
   text-align: center;
-  font-size: 48px;
-  color: #fff;
+  font-size: 4rem;
+  color: var(--clr-txt-light);
+  margin-top: 3rem;
 
   -webkit-animation: leweb_fade_move_down 2s ease-in-out infinite;
   -moz-animation: leweb_fade_move_down 2s ease-in-out infinite;

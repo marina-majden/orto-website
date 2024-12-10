@@ -1,0 +1,59 @@
+p {
+  font-family: var(--ff-text), sans-serif;
+  font-size: clamp(1.125rem, 5vw - 2.25rem, 1.375rem);
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ff-heading), serif;
+  color: var(--clr-txt-dark);
+  line-height: 2;
+  margin: 1rem 0;
+  text-align: center;
+}
+h1 {
+  font-size: clamp(3rem, 5vw + 1.25rem, 4.5rem);
+  font-weight: 700;
+}
+h2 {
+  font-size: clamp(2.375rem, 3.8vw + 1rem, 3.625rem);
+  font-weight: 600;
+}
+h3 {
+  font-size: clamp(2rem, 3vw + 1rem, 3rem);
+  font-weight: 500;
+}
+h4 {
+  font-size: clamp(1.825rem, 2.5vw + 1rem, 2.625rem);
+  font-weight: 500;
+}
+h5 {
+  font-size: clamp(1.525rem, 2.2vw + 1rem, 2.375rem);
+  font-weight: 500;
+}
+h6 {
+  font-size: clamp(1.375rem, 2vw + 1rem, 2.125rem);
+  font-weight: 500;
+}
+a {
+  font-family: var(--ff-upper), sans-serif;
+  color: var(--clr-text);
+  text-decoration: none;
+  
+  
+}
+
+main {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  scroll-behavior: smooth;
+   scroll-snap-type: y proximity;
+}

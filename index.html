@@ -10,38 +10,28 @@
       Dr. Ana Petrović - Specijalistička ordinacija dentalne medicine za
       ortodonciju
     </title>
-
-    <!-- Mobile Specific Metas -->
     <meta
       name="viewport"
       content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"
     />
     <meta name="mobile-web-app-capable" content="yes" />
-    <!-- FONTS -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,600,700"
-      rel="stylesheet"
-    />
+     <!-- PRELOADER -->
+     <link href="/assets/css/loader.css" rel="stylesheet" />
+    <!-- VIDEO BACKGROUND -->
+    <script src="/assets/images/video_2024-12-09 16_44_54.webm"></script>
     <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/assets/fontawesome/webfonts/fa-solid-900.ttf">
     <!-- Favicon -->
    
-    <!-- VIDEO BACKGROUND -->
-    <script src="/js/BlurGradientBg.min.js"></script>
-
     <!-- SLIDER -->
     <link
       rel="stylesheet"
-      href="node_modules/@glidejs/glide/dist/css/glide.core.min.css"
+      href="/node_modules/@glidejs/glide/dist/css/glide.core.css"
     />
-    <link
-      rel="stylesheet"
-      href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css"
-    />
+    <link rel="stylesheet" href="/node_modules/@glidejs/glide/dist/css/glide.theme.css">
     <!-- CUSTOM STYLING -->
-    <link rel="stylesheet" href="css/main.css" />
-    <!-- PRELOADER -->
-    <link href="css/loader.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
   </head>
   <body>
     <div id="video">
@@ -79,7 +69,7 @@
               <div class="nav-box navbar-collapse">
                 <ul class="navigation-menu nav show" id="nav">
                   <li data-menuanchor="slide01" class="active">
-                    <a href="#home"><i class="fa fa-home"></i></a>
+                    <a href="#home"><i class="fa-solid fa-home"></i></a>
                   </li>
                   <li data-menuanchor="slide02">
                     <a href="#about">O nama</a>
@@ -133,7 +123,7 @@
         </li>
       </ul>
       <video autoplay muted loop id="myVideo">
-        <source src="images/video_2024-12-09 16_44_54.webm" type="video/webm" />
+        <source src="/assets/images/video_2024-12-09 16_44_54.webm" type="video/webm" />
       </video>
       <!-- HEADER ENDS -->
       <!-- MAIN PAGE -->
@@ -147,13 +137,13 @@
                   class="logo-big"
                   data-sr="enter top over 2s, wait 1s, move 24px, reset"
                 >
-                  <img src="images/logo-vector-2.svg" alt="" />
+                  <img src="/assets/images/logo-vector-2.svg" alt="" />
                 </div>
                 <div class="row">
                   <div class="col">
                     <div class="animation">
                       <a class="arrow-down-animation" data-scroll href="#about"
-                        ><i class="fa fa-angle-down"></i
+                        ><i class="fa-solid fa-chevron-down"></i
                       ></a>
                     </div>
                   </div>
@@ -187,7 +177,7 @@
               </div>
               <div class="col col-md-6">
                 <div class="section-image"  data-sr="enter bottom over 1s, wait 0.3s, move 24px, reset">
-                  <img src="/images/team-alt-h43.jpg" alt="">
+                  <img src="/assets/images/team-h43.jpg" alt="team-photo">
                 </div>
               </div>
              
@@ -278,6 +268,7 @@
                     kako biste saznali koja je terapija najbolja za vas.
                     Pravilni zubi uvjet su za zdravlje i lijep osmijeh!
                   </p>
+                  <button><a href="/assets/html/fiksni.html"></a></button>
                 </div>
               </div>
             </div>
@@ -289,15 +280,15 @@
                   class="service-box"
                   data-sr="enter top over 1s, wait 0.3s, move 24px, reset"
                 >
-                  <i class="fa fa-teeth"></i>
+                  <i class="fa-solid fa-teeth"></i>
 
-                  <img src="images/braces-all-720.jpg" alt="" />
+                  <img src="/assets/images/braces-all-720.jpg" alt="fiksni-aparatici" />
                   <h3>Fiksni aparati</h3>
                   <p>
                     Fiksna ortodoncija pouzdana je metoda ispravljanja zubi i
                     čeljusti koja donosi trajne rezultate.
                   </p>
-                  <a href="/html/fiksni.html" target="_blank" >Saznaj više</a>
+                  <a href="/assets/html/fiksni.html" target="_blank">Saznaj više</a>
                 </div>
               </div>
               <div class="col col-md-6 col-lg-3">
@@ -305,14 +296,14 @@
                   class="service-box"
                   data-sr="enter top over 1s, wait 0.3s, move 24px, reset"
                 >
-                  <img src="images/braces-clear-600.jpg" alt="" />
+                  <img src="/assets/images/braces-clear-600.jpg" alt="mobilni-aparatici" />
                   <h3>Mobilni aparati</h3>
                   <p>
                     Mobilni aparatići su idealni za manje korekcije i mlađe
                     pacijente.
                   </p>
-                  <a href="mobilni.html">Saznaj više</a>
-                  <i class="fa fa-teeth"></i>
+                  <a href="/assets/html/mobilni.html" target="_blank">Saznaj više</a>
+                  <i class="fa-solid fa-teeth-open"></i>
                 </div>
               </div>
               <div class="col col-md-6 col-lg-3">
@@ -320,15 +311,15 @@
                   class="service-box"
                   data-sr="enter top over 1s, wait 0.3s, move 24px, reset"
                 >
-                  <i class="fa fa-teeth"></i>
+                  <i class="fa-solid fa-tools"></i>
 
-                  <img src="/images/braces-gold-600.jpg" alt="" />
+                  <img src="/assets/images/braces-gold-600.jpg" alt="nevidljivi aparati" />
                   <h3>Nevidljivi aparati</h3>
                   <p>
                     Ako želite neprimjetno ispraviti zube, nevidljivi aparatići
                     pružaju diskretnu korekciju uz maksimalnu učinkovitost.
                   </p>
-                  <a href="nevidljivi.html">Saznaj više</a>
+                  <a href="/assets/html/nevidljivi.html" target="_blank">Saznaj više</a>
                 </div>
               </div>
               <div class="col col-md-6 col-lg-3">
@@ -336,15 +327,15 @@
                   class="service-box"
                   data-sr="enter top over 1s, wait 0.3s, move 24px, reset"
                 >
-                  <i class="fa fa-teeth"></i>
+                  <i class="fa-solid fa-crown"></i>
 
-                  <img src="images/braces-silver-600.jpg" alt="" />
-                  <h3>Fiksni aparati</h3>
+                  <img src="/assets/images/braces-silver-600.jpg" alt="myobrace" />
+                  <h3>Myobrace traineri</h3>
                   <p>
-                    Fiksna ortodoncija pouzdana je metoda ispravljanja zubi i
-                    čeljusti koja donosi trajne rezultate.
+                    Myobrace traineri su ortodontski aparati koji potiču
+                    pravilan razvoj čeljusti i mišića lica kod djece.
                   </p>
-                  <a href="myobrace.html">Saznaj više</a>
+                  <a href="/assets/html/myobrace.html" target="_blank">Saznaj više</a>
                 </div>
               </div>
             </div>
@@ -373,10 +364,10 @@
                 data-sr="enter bottom over 1s, wait 0.3s, move 24px, reset"
               >
                 <figure class="image-block">
-                  <img src="images/team-h1.jpg" alt="ana_petrovic" />
+                  <img src="/assets/images/team-h1.jpg" alt="ana_petrovic" />
                   <h2>Ana Petrović <br />dr. med. dent.</h2>
                   <h3>specijalist ortodoncije</h3>
-                  <i class="fa-2x fa-arrow-down"></i>
+                  <i class="fa-solid fa-chevron-circle-right"></i>
                   <figcaption>
                     <p>
                       Rođena u Osijeku. Osnovnu školu i opću gimnaziju završila
@@ -403,10 +394,12 @@
                 data-sr="enter bottom over 1s, wait 0.3s, move 24px, reset"
               >
                 <figure class="image-block">
+                  <img src="/assets/images/team-h2.jpg" alt="martina-puskadija" />
                   <h2>Martina Puškadija</h2>
-                  <img src="images/team-h2.jpg" alt="" />
+                   <h3>dentalni asistent</h3>
+                  <i class="fa-solid fa-chevron-circle-right"></i>
                   <figcaption>
-                    <h3>dentalni asistent</h3>
+                   
                     <p>
                       Rođena u Našicama. Srednju medicinsku školu završila je
                       Osijeku 2007. godine, smjer medicinska sestra. Stažirala
@@ -420,7 +413,6 @@
                       Specijalističkoj ordinaciji dentalne medicine za
                       ortodonciju dr. Ane Petrović.
                     </p>
-                    <button class="btn-more">Više</button>
                   </figcaption>
                 </figure>
               </div>
@@ -430,9 +422,11 @@
               >
                 <figure class="image-block">
                   <h2>Ema Prezime</h2>
-                  <img src="images/team-h3.jpg" alt="" />
+                  <h3>dentalni tehničar</h3>
+                  <img src="/assets/images/team-h3.jpg" alt="ema" />
+                  <i class="fa-solid fa-chevron-circle-right"></i>
                   <figcaption>
-                    <h3>dentalni tehničar</h3>
+                   
                     <p>
                       Rođena 12. siječnja 2001.u Osijeku. Medicinsku srednju
                       školu završava u rodnome gradu, smjer dentalni tehničar,
@@ -445,7 +439,7 @@
                       za ortodonciju Ane Petrović radi kao dentalni tehničar za
                       ortodonciju .
                     </p>
-                    <button class="btn-more">Više</button>
+                
                   </figcaption>
                 </figure>
               </div>
@@ -455,9 +449,12 @@
               >
                 <figure class="image-block">
                   <h2>Dorotea Bajs</h2>
-                  <img src="images/team-h4.jpg" alt="" />
+                  <h3>medicinska sestra</h3>
+                  <img src="/assets/images/team-h4.jpg" alt="doroteja-bajs" />
+                  <i class="fa-solid fa-chevron-circle-right"></i>
+                  
                   <figcaption>
-                    <h3>medicinska sestra</h3>
+                   
                     <p>
                       Rođena 05. lipnja 1995. godine, iz Creta Brezovačkog
                       dolazi u Osijek gdje 2015. završava medicinsku školu,
@@ -468,7 +465,7 @@
                       sali. Godine 2023. započinje s radom u Ordinaciji za
                       ortodonciju dr. Ana Petrović.
                     </p>
-                    <button class="btn-more">Više</button>
+                  
                   </figcaption>
                 </figure>
               </div>
@@ -486,7 +483,7 @@
             </div>
             <div class="row">
               <div class="col col-md-6">
-                <img src="/images/inter-rec-v43.jpg" alt="">
+                <img src="/assets/images/inter-rec-v43.jpg" alt="">
               </div>
               
               <div
@@ -555,7 +552,7 @@
         <!-- PRICES ENDS -->
         <!-- CASES -->
         <section class="cases" id="cases">
-          <div class="container">
+        <!--   <div class="container">
             <div class="row">
               <div class="col">
                 <div class="section-title">
@@ -563,7 +560,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
             <!-- GRID -->
         <div id="grid">
           <div class="page-content">
@@ -666,28 +663,28 @@
             <div class="glide__track" data-glide-el="track">
               <ul class="glide__slides">
                 <li class="glide__slide">
-                  <img src="images/inter-waiting-h43.jpg" alt="" />
+                  <img src="/assets/images/inter-ext-v43.jpg" alt="ordinacija-eksterijer" />
                 </li>
                 <li class="glide__slide">
-                  <img src="images/inter-rec-v43.jpg" alt="" />
+                  <img src="/assets/images/inter-waiting-h43.jpg" alt="cekaonica" />
                 </li>
                 <li class="glide__slide">
-                  <img src="images/interior-ordin-960.jpg" alt="" />
+                  <img src="/assets/images/interior-ordin-960.jpg" alt="ordinacija" />
                 </li>
                 <li class="glide__slide">
-                  <img src="images/inter-kit-v43.jpg" alt="" />
+                  <img src="/assets/images/inter-recp-v43.jpg" alt="recepcija" />
                 </li>
                 <li class="glide__slide">
-                  <img src="images/inter-offic-960.jpg" alt="" />
+                  <img src="/assets/images/inter-offic-960.jpg" alt="ured" />
                 </li>
                 <li class="glide__slide">
-                  <img src="images/inter-bath-v43.jpg" alt="" />
+                  <img src="/assets/images/inter-bath-v43.jpg" alt="toalet" />
                 </li>
                 <li class="glide__slide">
-                  <img src="images/inter-ext-v43.jpg" alt="" />
+                  <img src="/assets/images/inter-kit-v43.jpg" alt="kuhinja" />
                 </li>
                 <li class="glide__slide">
-                  <img src="images/team-alt-h43.jpg" alt="" />
+                  <img src="/assets/images/team-alt-h43.jpg" alt="tim" />
                 </li>
               </ul>
             </div>
@@ -843,12 +840,12 @@
             <div class="col col-md-6">
               <div class="footer-content">
                 <div class="privacy-policy">
-                  <a href="privacypolicy.html">Politika privatnosti</a>
+                  <a href="/assets/html/privacypolicy.html">Politika privatnosti</a>
                 </div>
                 <div class="socials">
-                  <a href="#"><i class="fa fa-facebook"></i></a>
-                  <a href="#"><i class="fa fa-instagram"></i></a>
-                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-google"></i></a>
                 </div>
 
                 <p>
@@ -868,16 +865,16 @@
       crossorigin="anonymous"
     ></script>
     <!-- SLIDER -->
-    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <script src="/node_modules/@glidejs/glide/dist/glide.min.js"></script>
     <!-- SMOOTH SCROLL -->
-    <script src="js/smooth-scroll.min.js"></script>
+    <script src="/assets/js/smooth-scroll.min.js"></script>
     <!-- PARALLAX IMG -->
-    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="/assets/js/jquery.parallax-1.1.3.js"></script>
     <!-- SCROLL REVEAL -->
-    <script src="js/scrollReveal.min.js"></script>
+    <script src="/assets/js/scrollReveal.min.js"></script>
     <!-- FUNCTIONS -->
-    <script src="js/functions.js"></script>
+    <script src="/assets/js/functions.js"></script>
     <!-- MAIN JS -->
-    <script src="js/main.js"></script>
+    <script src="/assets/js/main.js"></script>
   </body>
 </html>

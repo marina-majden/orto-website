@@ -14,6 +14,33 @@ video {
   object-fit: cover;
   object-position: center;
 }
+.glass {
+  background: rgba(190, 202, 188, 0.459);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.274);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 2px solid rgba(211, 203, 203, 0.04);
+  border-radius: 10px;
+}
+.glass-transparent {
+  background: rgba(190, 202, 188, 0.288);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.274);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 2px solid rgba(211, 203, 203, 0.04);
+  border-radius: 10px;
+}
+th, thead {
+
+  color: var(--clr-sec);
+  font-family: var(--ff-link);
+  text-transform: uppercase;
+}
+td, tbody {
+  color: var(--clr-prim-dark);
+  font-family: var(--ff-link);
+ 
+}
 section {
   width: 100vw;
   min-height: 100vh;
@@ -102,7 +129,7 @@ section {
 }
 :is(.case-box, .service-box, .btn) a:hover {
   background: var(--clr-sec);
-  color: var(--clr-txt-light);
+  color: var(--clr-text-light);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -128,7 +155,7 @@ section {
 }
 .btn-more:hover {
   background: var(--clr-sec);
-  color: var(--clr-txt-light);
+  color: var(--clr-text-light);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }

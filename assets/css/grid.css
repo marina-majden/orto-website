@@ -90,7 +90,7 @@
       transition: transform calc(var(--d) * 2) var(--e);
     }
     .card:nth-child(1):before {
-      background-image: url("/images/braces-silver-blur-600.jpg");
+      background-image: url("/assets/images/braces-silver-blur-600.jpg");
     }
     .card:nth-child(2):before {
       background-image: url("/images/braces-clear-600.jpg");

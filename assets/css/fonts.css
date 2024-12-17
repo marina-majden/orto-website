@@ -1,16 +1,21 @@
 @font-face {
   font-family: "DM Sans";
-  src: url(/assets/fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf) format("truetype");
+  src: url(../fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf) format("truetype");
 }
 @font-face {
   font-family: "DM Serif Display";
-  src: url(/assets/fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf) format("truetype");
+  src: url(../fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "Gloock";
-  src: url(/assets/fonts/Gloock/Gloock-Regular.ttf) format("truetype");
+  src: url(../fonts/Gloock/Gloock-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "Jost";
-  src: url(/assets/fonts/Jost/Jost-VariableFont_wght.ttf) format("truetype");
+  src: url(../fonts/Jost/Jost-VariableFont_wght.ttf) format("truetype");
 }
+:root {
+--ff-text: "DM Sans", sans-serif;
+--ff-heading:  "DM Serif Display", serif;
+--ff-accent: "Gloock";
+--ff-link: "Jost", monospace;}

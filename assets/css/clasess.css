@@ -30,25 +30,21 @@ video {
   border: 2px solid rgba(211, 203, 203, 0.04);
   border-radius: 10px;
 }
-th, thead {
-
+th,
+thead {
   color: var(--clr-sec);
   font-family: var(--ff-link);
   text-transform: uppercase;
 }
-td, tbody {
+td,
+tbody {
   color: var(--clr-prim-dark);
   font-family: var(--ff-link);
- 
 }
 section {
-  width: 100vw;
-  min-height: 100vh;
+  width: 100%;
   padding: 0;
   margin: 5% auto;
-  scroll-snap-type: y mandatory;
-  scroll-snap-align: start;
- 
 }
 .wrapper {
   width: 80%;
@@ -112,7 +108,7 @@ section {
 }
 /* BUTTONS - LINKS */
 
-:is(.case-box, .service-box, .home-content) a {
+:is(.case-box, .service-box, .home-content, .service-card) a {
   display: block;
   padding: 10px 30px;
   margin: 0 auto;
@@ -127,13 +123,13 @@ section {
   border: 1px solid var(--clr-sec);
   border-radius: 5px;
 }
-:is(.case-box, .service-box, .btn) a:hover {
+:is(.case-box, .service-box, .service-card, .btn) a:hover {
   background: var(--clr-sec);
   color: var(--clr-text-light);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-:is(.case-box, .service-box, .btn) a:active {
+:is(.case-box, .service-box, .service-card, .btn) a:active {
   transform: scale(0.9);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -167,8 +163,6 @@ section {
 figure {
   margin: 0;
 }
-
-
 
 .row {
   width: 100%;

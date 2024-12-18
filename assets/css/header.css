@@ -2,14 +2,16 @@
 HEADER - NAVBAR AND LOGO
 ====================================*/
 header {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100vw;
     max-width: 100%;
-    height: 10vh;
+    /* height: 10vh; */
+    padding: 0.2rem;
+    margin: 0;
     margin-bottom: 1rem;
     z-index: 998;
-    background: rgba(190, 202, 188, 0.288);
+    background: rgba(190, 202, 188, 0.582);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     transition: 0.5s;

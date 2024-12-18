@@ -47,7 +47,65 @@
       </div>
       <!-- PRELOADER ENDS -->
 
-      <!-- HEADER -->
+     
+      <ul class="hide" id="navbar-mobile">
+        <li data-menuanchor="slide01" class="active nav-link">
+          <a href="#home">Home</a>
+        </li>
+        <li data-menuanchor="slide02" class="nav-link">
+          <a href="#about">O nama</a>
+        </li>
+        <li data-menuanchor="slide03" class="nav-link">
+          <a href="#service">Usluge</a>
+        </li>
+        <li data-menuanchor="slide04" class="nav-link">
+          <a href="#team">Naš tim</a>
+        </li>
+        <li data-menuanchor="slide05" class="nav-link">
+          <a href="#prices">Cjenik</a>
+        </li>
+        <li data-menuanchor="slide06" class="nav-link">
+          <a href="#cases">Prikazi slučajeva</a>
+        </li>
+        <li data-menuanchor="slide07" class="nav-link">
+          <a href="#contact">Kontakt</a>
+        </li>
+      </ul>
+      <video autoplay muted loop id="myVideo">
+        <source
+          src="./assets/images/video_2024-12-09 16_44_54.webm"
+          type="video/webm"
+        />
+      </video>
+
+      <!-- MAIN PAGE -->
+      <main>
+        <!--  HOME -->
+        <section class="home" id="home">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div
+                  class="logo-big"
+                  data-sr="enter top over 2s, wait 0.5s, move 24px, reset"
+                >
+                  <img src="./assets/images/logo-vector-2.svg" alt="" />
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="animation">
+                      <a class="arrow-down-animation" data-scroll href="#about"
+                        ><i class="fa-solid fa-chevron-down"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--  HOME ENDS -->
+           <!-- HEADER -->
       <header id="header">
         <!-- LOGO -->
         <div class="logo" id="logo">
@@ -92,74 +150,22 @@
           </div>
         </div>
       </header>
-
-      <ul class="hide" id="navbar-mobile">
-        <li data-menuanchor="slide01" class="active nav-link">
-          <a href="#home">Home</a>
-        </li>
-        <li data-menuanchor="slide02" class="nav-link">
-          <a href="#about">O nama</a>
-        </li>
-        <li data-menuanchor="slide03" class="nav-link">
-          <a href="#service">Usluge</a>
-        </li>
-        <li data-menuanchor="slide04" class="nav-link">
-          <a href="#team">Naš tim</a>
-        </li>
-        <li data-menuanchor="slide05" class="nav-link">
-          <a href="#prices">Cjenik</a>
-        </li>
-        <li data-menuanchor="slide06" class="nav-link">
-          <a href="#cases">Prikazi slučajeva</a>
-        </li>
-        <li data-menuanchor="slide07" class="nav-link">
-          <a href="#contact">Kontakt</a>
-        </li>
-      </ul>
-      <video autoplay muted loop id="myVideo">
-        <source
-          src="./assets/images/video_2024-12-09 16_44_54.webm"
-          type="video/webm"
-        />
-      </video>
       <!-- HEADER ENDS -->
-      <!-- MAIN PAGE -->
-      <main>
-        <!--  HOME -->
-        <section class="home" id="home">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div
-                  class="logo-big"
-                  data-sr="enter top over 2s, wait 1s, move 24px, reset"
-                >
-                  <img src="./assets/images/logo-vector-2.svg" alt="" />
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <div class="animation">
-                      <a class="arrow-down-animation" data-scroll href="#about"
-                        ><i class="fa-solid fa-chevron-down"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!--  HOME ENDS -->
         <!-- ABOUT -->
         <section class="about" id="about">
           <div class="wrapper">
+            <div class="row">
+              <div class="col">
+                <h2>O nama</h2>
+              </div>
+            </div>
             <div class="row about">
               <div class="col col-md-6">
                 <div
                   class="section-content"
-                  data-sr="enter top over 1s, wait 2s, move 24px, reset"
+                  data-sr="enter top over 1s, wait 0.5s, move 24px, reset"
                 >
-                  <h2>O nama</h2>
+                 
                   <h3>
                     Dobrodošli u našu specijalističku ordinaciju za ortodonciju!
                   </h3>
@@ -259,7 +265,7 @@
                   <p>
                     Ortodoncija je grana dentalne medicine koja se bavi
                     dijagnosticiranjem, prevencijom i ispravljanjem nepravilnog
-                    položaja zuba i čeljusti. Cilj ortodontske terapije nije
+                    položaja zuba i čeljusti. <br>Cilj ortodontske terapije nije
                     samo estetski osmijeh, već i pravilna funkcija zuba, bolji
                     zagriz te očuvanje zdravlja usne šupljine.
                   </p>
@@ -275,7 +281,7 @@
                     Pravilni zubi nisu samo uvjet za lijep osmijeh, nego i za
                     opće zdravlje.
                   </p>
-                  <button><a href="">Saznajte više</a></button>
+                  <button><a href="/assets/html/fiksni.html" target="_blank">Saznajte više</a></button>
                 </div>
               </div>
             </div>

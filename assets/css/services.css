@@ -9,6 +9,7 @@
 }
 .service-box {
   width: 100%;
+  max-width: 400px;
   height: 100%;
   margin: 0 auto;
   display: flex;
@@ -21,6 +22,10 @@
   clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
   -webkit-clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
   overflow-x: visible;
+  background:  rgba(88, 88, 88, 0.418);
+  border: 2px solid inherit;
+  border-radius: 10px;
+
 }
 
 /* .service-box:hover {
@@ -43,9 +48,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 2rem 1rem;
   margin: 1rem;
+    background:  rgba(88, 88, 88, 0.21);
+  border: 2px solid inherit;
+  border-radius: 10px;
 }
 .service-card img {
-  max-width: 300px;
+  max-width: 100px;
 }

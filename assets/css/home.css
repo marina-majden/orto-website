@@ -5,9 +5,16 @@
   width: 100vw;
   height: 100vh;
   background: url(/assets/images/inter-ord-960.jpg) no-repeat fixed center center /
-    cover rgba(255, 255, 255, 0.288);
+    contain rgba(27, 27, 27, 0.288);
+    background-size: 80% 100%;
   padding-top: 1rem;
   margin: 0;
+}
+@media (max-width: 1200px) {
+  #home {
+    background-size: 100%;
+  }
+  
 }
 .logo-big {
   width: 80%;

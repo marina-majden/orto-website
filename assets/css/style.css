@@ -24,7 +24,7 @@ h1 {
   font-weight: 600;
 }
 h2 {
-  font-size: clamp(2.375rem, 3.8vw + 1rem, 3.525rem);
+  font-size: clamp(2.575rem, 4.5vw + 1rem, 3.825rem);
   font-weight: 500;
 }
 h3 {
@@ -36,12 +36,14 @@ h4 {
   font-weight: 500;
 }
 h5 {
-  font-size: clamp(1.525rem, 2.2vw + 1rem, 2.375rem);
-  font-weight: 500;
+  font-size: clamp(1.525rem, 1.6vw + 1rem, 2rem);
+  font-weight: 400; 
+  font-family: var(--ff-link), sans-serif;
 }
 h6 {
-  font-size: clamp(1.375rem, 2vw + 1rem, 2.125rem);
+  font-size: clamp(1.375rem, 1.2vw + 1rem, 1.8rem);
   font-weight: 500;
+ 
 }
 a {
   font-family: var(--ff-link), sans-serif;
@@ -57,4 +59,7 @@ main {
   margin: 0;
   width: 100%;
   max-width: 100vw;
+}
+svg {
+  max-width: 100px;
 }
